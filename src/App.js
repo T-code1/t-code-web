@@ -5,8 +5,8 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
 class App extends Component {
-  render() { 
-    return ( 
+  render() {
+    return (
       <div className="app">
        {/* list of components */}
        <Navbar/>
@@ -15,8 +15,8 @@ class App extends Component {
        <About/>
        <Contact/>
       </div>
-     );
+    );
   }
 }
- 
+
 export default App;
