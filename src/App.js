@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Sample from "./components/sample";
-
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Services from "./components/Services";
@@ -11,7 +9,6 @@ class App extends Component {
     return (
       <div className="app">
        {/* list of components */}
-       <Sample/>
        <Navbar/>
        <Home/>
        <Services />
