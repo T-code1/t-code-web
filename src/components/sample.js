@@ -5,6 +5,7 @@ class Sample extends Component {
         return (
             <div className = "sample">
             <h1>T-code web</h1>
+            <h2>we code HERE </h2>
             </div>
         )
     }
