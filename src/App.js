@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Sample from "./components/sample";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Services from "./components/Services";
@@ -9,9 +8,12 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        {/* list of components */}
-
-        <Services />
+       {/* list of components */}
+       <Navbar/>
+       <Home/>
+       <Services />
+       <About/>
+       <Contact/>
 
       </div>
     );
