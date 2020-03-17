@@ -1,13 +1,4 @@
 import React, { Component } from 'react';
-//import { Card, CardHeader, CardBody, CardFooter } from 'react-simple-card';
-//import { Image } from 'react'
-// import Card, {
-//     CardPrimaryContent,
-//     CardMedia,
-//     CardActions,
-//     CardActionButtons,
-//     CardActionIcons
-// } from "@material/react-card";
 import { Card, CardBody,ImageHeader } from 'react-simple-card';
 
 class Services extends Component {
