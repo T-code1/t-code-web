@@ -6,19 +6,16 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
 class App extends Component {
-  render() { 
-    return ( 
+  render() {
+    return (
       <div className="app">
-       {/* list of components */}
-       <Sample/>
-       <Navbar/>
-       <Home/>
-       <Services />
-       <About/>
-       <Contact/>
+        {/* list of components */}
+
+        <Services />
+
       </div>
-     );
+    );
   }
 }
- 
+
 export default App;
