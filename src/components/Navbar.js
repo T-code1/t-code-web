@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import "./styles/navbar.css"
 class Navbar extends Component {
-    render(){
-        return (
-            <div className = "Navbar">
-                <h1 className="logo">T-CODE</h1>
-            <ul className="nav">
-				<li>
+	render() {
+		return (
+			<div className="Navbar">
+				<h1 className="logo">T-CODE</h1>
+				<ul className="nav">
+					<li>
 					<a href="!#">HOME</a>
 				</li>
 				<li>
@@ -16,7 +16,7 @@ class Navbar extends Component {
 				<li>
 					<a href="/login">ABOUT</a>
 				</li>
-                <li>
+				<li>
 					<a href="/login">CONTACT</a>
 					<Link to="/home">HOME</Link>
 				</li>
@@ -26,13 +26,14 @@ class Navbar extends Component {
 				<li>
 					<Link to="/about">ABOUT</Link>
 				</li>
+				<li>
                 <li>
 					<Link to="/contact">CONTACT</Link>
 				</li>
 			</ul>
-            </div>
+            </div >
         )
-    }
+	}
 }
 
 export default Navbar;
