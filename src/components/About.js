@@ -6,6 +6,7 @@ class About extends Component {
     render() {
         return (
             <div className="container">
+            <div className="contain">
 
                 <div className="about">
 
