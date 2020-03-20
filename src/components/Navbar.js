@@ -7,17 +7,7 @@ class Navbar extends Component {
 			<div className="Navbar">
 				<h1 className="logo">T-CODE</h1>
 				<ul className="nav">
-					<li>
-					<a href="!#">HOME</a>
-				</li>
 				<li>
-					<a href="/register">SERVICES</a>
-				</li>
-				<li>
-					<a href="/login">ABOUT</a>
-				</li>
-				<li>
-					<a href="/login">CONTACT</a>
 					<Link to="/home">HOME</Link>
 				</li>
 				<li>
@@ -26,12 +16,11 @@ class Navbar extends Component {
 				<li>
 					<Link to="/about">ABOUT</Link>
 				</li>
-				<li>
                 <li>
 					<Link to="/contact">CONTACT</Link>
 				</li>
 			</ul>
-            </div >
+            </div>
         )
 	}
 }

@@ -6,15 +6,11 @@ class About extends Component {
     render() {
         return (
             <div className="container">
-            <div className="contain">
-
+             <div className="contain">
                 <div className="about">
-
                     <h2>About Us</h2>
                     <h3>Our everyday business</h3>
-
                 </div>
-
                 <div className="img">
 
                     <img className="image" src={require("../images/pexels-photo-248159.jpeg")} alt="pexels" />
@@ -29,10 +25,10 @@ class About extends Component {
                         <p> <i className="fa fa-hand-o-right" />  Desktop Application</p>
 
                     </div>
-
+                    </div>
                 </div>
-
-            </div>
+                </div>
+            
         )
     }
 }
