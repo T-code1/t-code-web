@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import './Astyle.css'
 import './styles/Astyle.css'
 
 class About extends Component {
     render() {
         return (
+            <div className="container">
             <div className="contain">
 
                 <div className="about">

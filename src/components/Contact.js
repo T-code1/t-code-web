@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './cstyle.css'
 import './styles/cstyle.css'
 class Contact extends Component {
     render() {
@@ -22,6 +23,7 @@ class Contact extends Component {
 
                             <p> +250 739 015 740</p>
                             <p id="nmber"> +250 785 846 496</p>
+                            <p id="mail">tcode@gmail.com</p>
                             <p id="mail">t-code@gmail.com</p>
 
                         </div>

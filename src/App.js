@@ -8,6 +8,16 @@ import Contact from "./components/Contact";
 class App extends Component {
   render() {
     return (
+      <div className="app">
+        {/* list of components */}
+        <Services />
+       {/* list of components */}
+       <Navbar/>
+       <Home/>
+       <Services />
+       <About/>
+       <Contact/>
+      </div>
   <Router>
       <Fragment>
       <Navbar />
