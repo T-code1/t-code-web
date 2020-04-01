@@ -11,14 +11,23 @@
 h1.text {
     position: absolute;
     bottom: 23%;
-    right: 2%;
+    right: 0%;
     color: white;
     font-size: 70px;
-    animation: type 3s steps(30);
+    animation: type 3s steps(60);
     overflow: hidden;
     white-space: nowrap;
 }
-
+h1.text2 {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    color: white;
+    font-size: 70px;
+    animation: type 8s steps(30);
+    overflow: hidden;
+    white-space: nowrap;
+}
     @keyframes type{
         0%{
             width:0ch;
