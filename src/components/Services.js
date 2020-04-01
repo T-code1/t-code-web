@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardBody } from 'react-simple-card';
-import background from '../images/page3.jpg';
+// import background from '../images/page3.jpg';
 import "./styles/home.css";
 
 class Services extends Component {
