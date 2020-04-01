@@ -12,7 +12,7 @@ class App extends Component {
       <Fragment>
       <Navbar />
       <Switch>
-      <Route exact path = "/home" component = {Home} />
+      <Route exact path = "/" component = {Home} />
       <Route exact path = "/services" component = {Services} />
       <Route exact path = "/about" component = {About} />
        <Route exact path = "/contact" component = {Contact} />

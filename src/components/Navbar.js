@@ -8,7 +8,7 @@ class Navbar extends Component {
 				<h1 className="logo">T-CODE</h1>
 				<ul className="nav">
 				<li>
-					<Link to="/home">HOME</Link>
+					<Link to="/">HOME</Link>
 				</li>
 				<li>
 					<Link to="/services">SERVICES</Link>
