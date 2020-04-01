@@ -6,7 +6,8 @@ class Home extends Component {
         return (
             <div className = "home">
             <img className="home-img" src= {imageUrl} alt= "coding" />
-            <h1 className='text'>Innovation Through Strategy,<br/>Design & Technology </h1>
+            <h1 className='text'>Innovation Through Strategy </h1>
+            <h1 className='text2'>Design & Technology </h1>
             </div>
         )
     }
