@@ -7,21 +7,21 @@ class Navbar extends Component {
 			<div className="Navbar">
 				<h1 className="logo">T-CODE</h1>
 				<ul className="nav">
-				<li>
-					<Link to="/">HOME</Link>
-				</li>
-				<li>
-					<Link to="/services">SERVICES</Link>
-				</li>
-				<li>
-					<Link to="/about">ABOUT</Link>
-				</li>
-                <li>
-					<Link to="/contact">CONTACT</Link>
-				</li>
-			</ul>
-            </div>
-        )
+					<li>
+						<Link to="/">Home</Link>
+					</li>
+					<li>
+						<Link to="/services">Services</Link>
+					</li>
+					<li>
+						<Link to="/about">About</Link>
+					</li>
+					<li>
+						<Link to="/contact">Contact</Link>
+					</li>
+				</ul>
+			</div>
+		)
 	}
 }
 
