@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardBody } from 'react-simple-card';
 // import background from '../images/page3.jpg';
 import "./styles/home.css";
-
+const GREY = "#D4D4D4";
 class Services extends Component {
     render() {
         const services = {
@@ -11,52 +11,55 @@ class Services extends Component {
             title = {
                 color: "#232323",
                 textAlign: 'center',
-                fontSize: 30,
-                fontFamily: 'opensans',
-                padding: 3
+                // fontSize: 25,
+                // fontFamily: 'opensans',
+                padding: 2
             },
             subtitle = {
                 textAlign: 'center',
-                fontSize: 20,
-                fontFamily: 'opensans'
+                // fontSize: 18,
+                // fontFamily: 'opensans'
             },
             cardOne = {
-                width: 271,
+                width: 266,
                 height: 300,
                 display: 'block',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                boxShadow: 6,
-                //borderRadius: 12
+                boxShadow: `1px 1px 1px ${GREY}`,
+                borderRadius: 4,
+                // borderWidth: 0.5,
+                borderColor: "#EEEE",
                 //width: 50 
             },
             image = {
                 display: 'block',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                marginTop: 35,
-                width: 200,
-                height: 181
+                marginTop: 28,
+                width: 181,
+                height: 150,
+                borderRadius: 2.5
             },
             cards = {
-                
+
                 //backgroundColor : 'yellow',
                 display: 'flex',
                 //flexDirection : 'row'
             },
             first = {
                 fontSize: 14,
-                marginTop: -15,
+                marginTop: 5,
                 marginLeft: 60,
                 color: '#707070',
-                fontFamily: 'opensans',
+                // fontFamily: 'opensans',
                 fontWeight: 'bold'
             },
             second = {
-                fontSize: 14,
+                fontSize: 13,
                 textAlign: 'center',
                 color: '#707070',
-                fontFamily: 'opensans',
+                // fontFamily: 'opensans',
                 marginTop: 10
             },
             we = {
@@ -67,21 +70,21 @@ class Services extends Component {
                 fontSize: 20,
                 textAlign: 'center',
                 color: '#707070',
-                fontFamily: 'opensans',
+                // fontFamily: 'opensans',
                 marginLeft: 'auto',
                 marginRight: 'auto',
             },
-            weare ={
+            weare = {
                 textAlign: 'center',
-                fontFamily: 'opensans',
+                // fontFamily: 'opensans',
                 padding: 60,
                 color: 'white'
             }
 
         return (
             <div style={services} className="services" >
-                <h1 style={title}>Services</h1>
-                <h4 style={subtitle}>What we do</h4>
+                <h2 style={title}>Services</h2>
+                <h3 style={subtitle}>What we do</h3>
                 <div style={cards} className="cards">
 
                     <Card style={cardOne}>
