@@ -5,19 +5,19 @@ class Navbar extends Component {
 	render() {
 		return (
 			<div className="Navbar">
-				<h1 className="logo">T-CODE</h1>
+				<h1 className="logo">T-Code</h1>
 				<ul className="nav">
 					<li>
-						<Link to="/">Home</Link>
+						<Link to="/">HOME</Link>
 					</li>
 					<li>
-						<Link to="/services">Services</Link>
+						<Link to="/services">SERVICES</Link>
 					</li>
 					<li>
-						<Link to="/about">About</Link>
+						<Link to="/about">ABOUT</Link>
 					</li>
 					<li>
-						<Link to="/contact">Contact</Link>
+						<Link to="/contact">CONTACT</Link>
 					</li>
 				</ul>
 			</div>

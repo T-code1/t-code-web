@@ -3,6 +3,7 @@ import { Card, CardBody } from 'react-simple-card';
 // import background from '../images/page3.jpg';
 import "./styles/home.css";
 const GREY = "#D4D4D4";
+const regular = "../fonts/ProximaNovaSoft-Regular.otf"
 class Services extends Component {
     render() {
         const services = {
@@ -11,15 +12,12 @@ class Services extends Component {
             title = {
                 color: "#232323",
                 textAlign: 'center',
-                // fontSize: 25,
-                // fontFamily: 'opensans',
                 padding: 2
             },
             subtitle = {
                 textAlign: 'center',
-                // fontSize: 18,
-                // fontFamily: 'opensans'
             },
+
             cardOne = {
                 width: 266,
                 height: 300,
@@ -28,10 +26,10 @@ class Services extends Component {
                 marginRight: 'auto',
                 boxShadow: `1px 1px 1px ${GREY}`,
                 borderRadius: 4,
-                // borderWidth: 0.5,
                 borderColor: "#EEEE",
-                //width: 50 
+                fontFamily: 'regular'
             },
+
             image = {
                 display: 'block',
                 marginLeft: 'auto',
@@ -41,44 +39,53 @@ class Services extends Component {
                 height: 150,
                 borderRadius: 2.5
             },
-            cards = {
 
-                //backgroundColor : 'yellow',
+            cards = {
                 display: 'flex',
-                //flexDirection : 'row'
             },
+
             first = {
                 fontSize: 14,
                 marginTop: 5,
-                marginLeft: 60,
+                marginLeft: 40,
                 color: '#707070',
-                // fontFamily: 'opensans',
                 fontWeight: 'bold'
             },
+            web = {
+                fontSize: 14,
+                marginTop: 5,
+                marginLeft: 80,
+                color: '#707070',
+                fontWeight: 'bold'
+            },
+
             second = {
                 fontSize: 13,
                 textAlign: 'center',
                 color: '#707070',
-                // fontFamily: 'opensans',
                 marginTop: 10
             },
+
             we = {
-                backgroundImage: 'url(' + require('../images/page7.jpg') + ')',
+                backgroundImage: 'url(' + require('../images/mac.jpeg') + ')',
+                backgroundSize: 'cover',
                 position: 'relative',
-                height: 160,
-                //width: 100,
-                fontSize: 20,
+                height: 220,
+                fontSize: 25,
                 textAlign: 'center',
                 color: '#707070',
-                // fontFamily: 'opensans',
-                marginLeft: 'auto',
-                marginRight: 'auto',
+                marginTop: 100
             },
+
             weare = {
-                textAlign: 'center',
-                // fontFamily: 'opensans',
-                padding: 60,
-                color: 'white'
+                color: '#fff',
+                paddingTop: 55,
+                paddingRight: 120,
+                fontFamily: 'regular'
+            },
+
+            paragraph = {
+                color: '#fff'
             }
 
         return (
@@ -88,25 +95,29 @@ class Services extends Component {
                 <div style={cards} className="cards">
 
                     <Card style={cardOne}>
-                        <img className="image" src={require("../images/afcomp.jpeg")} alt="pexels" style={image} />
+                        <img className="image" src={require("../images/mobile-app-development.png")} alt="pexels" style={image} />
                         <CardBody><p style={first}>Mobile Application</p>
                             <p style={second}>We build mobile Apps with friendly design and delightful functionalities</p></CardBody>
                     </Card>
 
                     <Card style={cardOne}>
-                        <img className="image" src={require("../images/code.jpeg")} alt="pexels" style={image} />
+                        <img className="image" src={require("../images/desktop-application.jpg")} alt="pexels" style={image} />
                         <CardBody><p style={first}>DeskTop Application</p>
                             <p style={second}>Creative solutions for your problems, creativity and innovation make it possible</p></CardBody>
                     </Card>
 
                     <Card style={cardOne}>
-                        <img className="image" src={require("../images/pexels-photo-248159.jpeg")} alt="pexels" style={image} />
-                        <CardBody><p style={first}>Mobile Application</p>
-                            <p style={second}>All about your needs with the best interfce using human-centered approach and your target audience</p></CardBody>
+                        <img className="image" src={require("../images/responsive-website-development.jpg")} alt="pexels" style={image} />
+                        <CardBody><p style={web}>Website</p>
+                            <p style={second}>All about your needs with the best interface using human-centered approach and your target audience</p></CardBody>
                     </Card>
                 </div>
                 <div style={we} className="we" >
-                    <p style={weare} className="weare">T-code, a passionate team that takes your idea into real world product</p>
+                    <div style={weare} className="weare">
+                        <p style={paragraph} className="paragraph">T-Code, a passionate team that takes</p>
+                        <p style={paragraph} className="paragraph">  your idea into real world product</p>
+                    </div>
+
                 </div>
             </div>
         )

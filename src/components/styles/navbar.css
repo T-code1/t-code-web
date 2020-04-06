@@ -18,16 +18,13 @@ ul {
   list-style: none;
 }
 
-.nav li {
-  /* padding: 25px; */
-}
 .nav li a {
   color: black;
   text-decoration: none;
   /* font-family: opensans; */
   padding: 25px;
   /* font-weight: semibold; */
-  font-size: 16px;
+  font-size: 13px;
 }
 
 li:hover {

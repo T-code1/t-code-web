@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "regular";
+  src: url("../../fonts/ProximaNovaSoft-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
 .home-img {
   position: relative;
   filter: brightness(30%);
@@ -15,7 +21,7 @@ h1.text {
   right: 0%;
   /* left: 6%; */
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "regular";
   font-size: 63px;
   animation: type 3s steps(60);
   overflow: hidden;
@@ -26,7 +32,7 @@ h1.text2 {
   bottom: 15%;
   right: 9%;
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "regular";
   font-size: 60px;
   animation: type 8s steps(30);
   overflow: hidden;
