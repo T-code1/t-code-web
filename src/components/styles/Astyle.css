@@ -1,7 +1,13 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
+@font-face {
+  font-family: "regular";
+  src: url("../../fonts/ProximaNovaSoft-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
 .container {
   background-color: #e4e4e4;
+  font-family: "regular";
 }
 .contain {
   background-color: #f8f8f8;

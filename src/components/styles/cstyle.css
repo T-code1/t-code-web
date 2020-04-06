@@ -1,5 +1,10 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
+@font-face {
+  font-family: "regular";
+  src: url("../../fonts/ProximaNovaSoft-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
 .container {
   background-color: #fff;
 }
@@ -106,6 +111,7 @@ textarea {
 .hire p {
   padding-left: 1.5%;
   line-height: 0.5em;
+  font-family: "regular";
 }
 .hire {
   padding-bottom: 20px;
