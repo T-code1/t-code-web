@@ -9,8 +9,8 @@ class Home extends Component {
         return (
             <div className="home">
                 <img className="home-img" src={require("../images/3847de7b-b22d-4fe9-8bd6-b4ae846d78df.JPG")} alt="coding" />
-                <h1 className='text'>Innovation Through Strategy </h1>
-                <h1 className='text2'>Design & Technology </h1>
+                <h1 className='text'>Innovation Through  </h1>
+                <h1 className='text2'>Strategy,Design & Technology </h1>
                 <Services />
                 <About />
                 <Contact />
@@ -19,4 +19,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Home; 

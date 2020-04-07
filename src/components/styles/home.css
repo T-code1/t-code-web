@@ -18,10 +18,9 @@
 h1.text {
   position: absolute;
   bottom: 35%;
-  right: 0%;
-  /* left: 6%; */
-  color: white;
-  font-family: "regular";
+  right: 6%;
+  text-transform: uppercase;
+  color:#cfcfcf;
   font-size: 63px;
   animation: type 3s steps(60);
   overflow: hidden;
@@ -29,10 +28,10 @@ h1.text {
 }
 h1.text2 {
   position: absolute;
-  bottom: 15%;
-  right: 9%;
-  color: white;
-  font-family: "regular";
+  bottom: 20%;
+  right: -4%;
+  color: #cfcfcf;
+  text-transform: uppercase;
   font-size: 60px;
   animation: type 8s steps(30);
   overflow: hidden;
