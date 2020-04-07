@@ -16,6 +16,7 @@ class Services extends Component {
             },
             subtitle = {
                 textAlign: 'center',
+                fontFamily: 'regular',
             },
 
             cardOne = {
@@ -47,14 +48,14 @@ class Services extends Component {
             first = {
                 fontSize: 14,
                 marginTop: 5,
-                marginLeft: 40,
+                marginLeft: 50,
                 color: '#707070',
                 fontWeight: 'bold'
             },
             web = {
                 fontSize: 14,
                 marginTop: 5,
-                marginLeft: 80,
+                marginLeft: 85,
                 color: '#707070',
                 fontWeight: 'bold'
             },
@@ -79,8 +80,8 @@ class Services extends Component {
 
             weare = {
                 color: '#fff',
-                paddingTop: 55,
-                paddingRight: 120,
+                paddingTop: 50,
+                paddingRight: 200,
                 fontFamily: 'regular'
             },
 
