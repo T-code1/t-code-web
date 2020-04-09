@@ -5,6 +5,9 @@
   font-style: normal;
   font-weight: 400;
 }
+*{
+  box-sizing:border-box;
+}
 .container {
   background-color: #e4e4e4;
   font-family: "regular";
