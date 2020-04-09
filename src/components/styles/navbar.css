@@ -1,6 +1,16 @@
+*{
+  box-sizing:border-box;
+}
 .Navbar {
   display: flex;
   justify-content: space-between;
+}
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Change the display property to none */
 }
 h1.logo {
   /* font-family: Tahoma; */
