@@ -106,7 +106,7 @@ textarea {
   padding: 3%;
 }
 .chat {
-  padding-left: 40%;
+  padding-left: 30%;
 }
 .contact h3 {
   padding-left: 1%;
@@ -119,3 +119,24 @@ textarea {
 .hire {
   padding-bottom: 20px;
 }
+
+@media all and (max-width: 670px) {
+.chat{
+  display: none;
+}
+
+  h1 {
+    font-size: 25px;
+    padding-right: 37%;
+}
+p#mail{
+  padding-top: 0px;
+}
+#nmber {
+  font-size: 18px;
+  padding-top: 16px;
+}
+p.nmber{
+  font-size: 20px;
+}
+   }

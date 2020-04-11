@@ -1,0 +1,21 @@
+
+.cards{
+    display: flex
+}
+@media all and (max-width: 670px) {
+ h2.servtitle{
+    font-size: 18px;
+ }
+   h3.servsubtitle{
+    font-size: 16px;
+   }
+   .cards{
+       display:block
+   }
+   p.paragraph.para{
+       display: none;
+   }
+   .we{
+       display: none;
+   }
+  }

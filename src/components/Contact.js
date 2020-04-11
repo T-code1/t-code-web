@@ -21,10 +21,10 @@ class Contact extends Component {
 
                         <div className="number">
 
-                            <p> +250 739 015 740</p>
-                            <p id="nmber"> +250 785 846 496</p>
-                            <p id="mail">hello@gmail.com</p>
-                            <p id="nmber">t-code@gmail.com</p>
+                            <p className="nmber"> +250 739 015 740</p>
+                            <p id="nmber" className="number"> +250 785 846 496</p>
+                            <p id="mail" className="mail">hello@gmail.com</p>
+                            <p id="nmber" className="meil2">t-code@gmail.com</p>
 
                         </div>
 
