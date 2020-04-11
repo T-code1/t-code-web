@@ -33,3 +33,27 @@
 .paragraph {
   padding-left: 15%;
 }
+
+@media all and (max-width: 670px) {
+  h2 {
+    font-size: 23px;
+}
+h3 {
+  font-size: 18px;
+}
+img.image {
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+p.text{
+  display:none;
+}
+.paragraph {
+  position: absolute;
+  left:1px
+}
+p.work {
+  color: black;
+}
+   }

@@ -53,3 +53,22 @@ h1.text2 {
     width: 22ch;
   }
 }
+
+
+@media all and (max-width: 670px) {
+  .home-img {
+    height: 308px;
+  }
+  h1.text {
+    top: 23%;
+    font-size: 20px;
+    color: white;
+  }
+  h1.text2{
+    top: 29%;
+    font-size: 20px;
+    color: white;
+    left: 11px;
+  }
+ 
+}

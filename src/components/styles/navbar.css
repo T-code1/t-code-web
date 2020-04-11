@@ -19,6 +19,7 @@ h1.logo {
   padding: 0 20px;
   color: #232323;
 }
+
 .nav {
   display: flex;
   margin: 28px;
@@ -39,4 +40,20 @@ ul {
 
 li:hover {
   transform: scale(1.2);
+}
+
+@media all and (max-width: 670px) {
+  h1.logo{
+ font-size: 20px;
+ padding:10px;
+  }
+  .nav{
+    position: absolute;
+    top:40px;
+    z-index:200;
+  }
+  .nav li a{
+    color:white;
+    padding: 14px;
+  }
 }

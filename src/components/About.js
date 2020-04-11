@@ -15,12 +15,12 @@ class About extends Component {
 
                         <div className="paragraph">
 
-                            <p>In a world of technology, People make difference</p>
-                            <p>so you've got questions on</p>
-                            <p>which app to use we've got answers:</p>
-                            <p> <i className="fa fa-hand-o-right" />  Website</p>
-                            <p> <i className="fa fa-hand-o-right" />  Mobile Application</p>
-                            <p> <i className="fa fa-hand-o-right" />  Desktop Application</p>
+                            <p className="text" >In a world of technology, People make difference</p>
+                            <p className="text">so you've got questions on</p>
+                            <p className="text">which app to use we've got answers:</p>
+                            <p className="work"> <i className="fa fa-hand-o-right" />  Website</p>
+                            <p className="work"> <i className="fa fa-hand-o-right" />  Mobile Application</p>
+                            <p className="work"> <i className="fa fa-hand-o-right" />  Desktop Application</p>
 
                         </div>
                     </div>

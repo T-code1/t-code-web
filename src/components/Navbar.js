@@ -20,6 +20,7 @@ class Navbar extends Component {
 						<Link to="/contact">CONTACT</Link>
 					</li>
 				</ul>
+				{/* <span className="fa fa-bars menu-icon"></span> */}
 			</div>
 		)
 	}
