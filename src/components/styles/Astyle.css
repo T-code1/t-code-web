@@ -33,6 +33,32 @@
 .paragraph {
   padding-left: 15%;
 }
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  h3.intro {
+    color: gray;
+  }
+  img.image {
+    position: relative;
+    width: 100%;
+    opacity:0.5;
+  }
+  .paragraph {
+    position: absolute;
+    color:black;
+}
+p.paragraph.para {
+  position: initial;
+}
+p.text {
+  color: black;
+}
+p.work {
+  color: black;
+}
+}
+
+/* For Smartphones */
 
 @media all and (max-width: 670px) {
   h2 {

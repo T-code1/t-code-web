@@ -54,7 +54,26 @@ h1.text2 {
   }
 }
 
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .home-img {
+    height: 50vh;
+  }
+  h1.text {
+    top: 23%;
+    right: 23%;
+    font-size: 37px;
+    color: white;
+  }
+  h1.text2{
+    top: 29%;
+    font-size: 37px;
+    color: white;
+    right:113px;
+  }
+}
 
+/* For Smartphones */
 @media all and (max-width: 670px) {
   .home-img {
     height: 308px;
