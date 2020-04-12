@@ -7,7 +7,7 @@ class About extends Component {
                 <div className="contain">
                     <div className="about">
                         <h2>About Us</h2>
-                        <h3>Our everyday business</h3>
+                        <h3 className="intro">Our everyday business</h3>
                     </div>
                     <div className="img">
 
