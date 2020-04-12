@@ -41,6 +41,9 @@
 h3 {
   font-size: 18px;
 }
+h3.intro {
+  color: gray;
+}
 img.image {
   position: relative;
   height: 50%;
