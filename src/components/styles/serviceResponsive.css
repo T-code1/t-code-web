@@ -2,6 +2,21 @@
 .cards{
     display: flex
 }
+h3.servsubtitle{
+    color:grey;
+   }
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    h2.servtitle {
+        font-size: 22px;
+    }
+    h3.servsubtitle{
+        font-size: 20px;
+       }
+
+  }
+  
+  /* For Smartphones */
 @media all and (max-width: 670px) {
  h2.servtitle{
     font-size: 18px;

@@ -94,19 +94,19 @@ class Services extends Component {
                 <h3 style={subtitle} className="servsubtitle">What we do</h3>
                 <div className="cards">
 
-                    <Card style={cardOne} className="cardone">
+                    <Card style={cardOne} className="cardone1">
                         <img className="image" src={require("../images/mobile-app-development.png")} alt="pexels" style={image} />
                         <CardBody><p style={first}>Mobile Application</p>
                             <p style={second}>We build mobile Apps with friendly design and delightful functionalities</p></CardBody>
                     </Card>
 
-                    <Card style={cardOne} className="cardone">
+                    <Card style={cardOne} className="cardone2">
                         <img className="image" src={require("../images/desktop-application.jpg")} alt="pexels" style={image} />
                         <CardBody><p style={first}>DeskTop Application</p>
                             <p style={second}>Creative solutions for your problems, creativity and innovation make it possible</p></CardBody>
                     </Card>
 
-                    <Card style={cardOne} className="cardone">
+                    <Card style={cardOne} className="cardone3">
                         <img className="image" src={require("../images/responsive-website-development.jpg")} alt="pexels" style={image} />
                         <CardBody><p style={web}>Website</p>
                             <p style={second}>All about your needs with the best interface using human-centered approach and your target audience</p></CardBody>
