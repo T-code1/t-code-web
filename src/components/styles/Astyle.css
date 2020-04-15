@@ -33,10 +33,13 @@
 .paragraph {
   padding-left: 15%;
 }
+h3.intro {
+  color: #c7c7c7;
+}
 /* For Tablets */
 @media all and (max-width: 1000px) {
   h3.intro {
-    color: gray;
+    color: #c7c7c7;
   }
   img.image {
     position: relative;
