@@ -2,9 +2,9 @@
 .cards{
     display: flex
 }
-h3.servsubtitle{
-    color:grey;
-   }
+h3.servsubtitle {
+    color: #c7c7c7;
+}
 /* For Tablets */
 @media all and (max-width: 1000px) {
     h2.servtitle {
