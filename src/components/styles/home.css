@@ -40,9 +40,7 @@ h1.text2 {
   overflow: hidden;
   white-space: nowrap;
 }
-h3.servsubtitle {
-    color: #c7c7c7;
-}
+
 @keyframes type {
   0% {
     width: 0ch;
