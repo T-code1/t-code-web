@@ -37,7 +37,7 @@ class Contact extends Component {
                                 <h4>Email*</h4>
                                 <input type="text" />
                                 <h4>Message*</h4>
-                                <textarea placeholder="tell us about your project" />
+                                <textarea placeholder="Tell us about your project" />
 
                             </form>
 
