@@ -5,8 +5,8 @@
   font-style: normal;
   font-weight: 400;
 }
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 .container {
   background-color: #e4e4e4;
@@ -34,7 +34,7 @@
   padding-left: 15%;
 }
 h3.intro {
-  color: #c7c7c7;
+  color: #707070;
 }
 /* For Tablets */
 @media all and (max-width: 1000px) {
@@ -44,21 +44,21 @@ h3.intro {
   img.image {
     position: relative;
     width: 100%;
-    opacity:0.5;
+    opacity: 0.5;
   }
   .paragraph {
     position: absolute;
-    color:black;
-}
-p.paragraph.para {
-  position: initial;
-}
-p.text {
-  color: black;
-}
-p.work {
-  color: black;
-}
+    color: black;
+  }
+  p.paragraph.para {
+    position: initial;
+  }
+  p.text {
+    color: black;
+  }
+  p.work {
+    color: black;
+  }
 }
 
 /* For Smartphones */
@@ -66,26 +66,26 @@ p.work {
 @media all and (max-width: 670px) {
   h2 {
     font-size: 23px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h3.intro {
+    color: gray;
+  }
+  img.image {
+    position: relative;
+    height: 50%;
+    width: 100%;
+  }
+  p.text {
+    display: none;
+  }
+  .paragraph {
+    position: absolute;
+    left: 1px;
+  }
+  p.work {
+    color: black;
+  }
 }
-h3 {
-  font-size: 18px;
-}
-h3.intro {
-  color: gray;
-}
-img.image {
-  position: relative;
-  height: 50%;
-  width: 100%;
-}
-p.text{
-  display:none;
-}
-.paragraph {
-  position: absolute;
-  left:1px
-}
-p.work {
-  color: black;
-}
-   }

@@ -24,9 +24,9 @@ class Services extends Component {
                 display: 'block',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                boxShadow: `5px 5px 15px 5px GREY`,
+                boxShadow: `0px 0px 8px 0px #c7c7c7`,
                 borderRadius: 4,
-                borderColor: "#EEEE",
+                borderColor: "#efefef",
                 fontFamily: 'regular'
             },
 
