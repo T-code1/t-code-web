@@ -14,7 +14,7 @@ class App extends Component {
       <Switch>
       <Route exact path = "/" component = {Home} />
       <Route exact path = "/services" component = {Services} />
-      <Route exact path = "/about" component = {About} />
+      <Route exact path = "/about" component = {About} /> 
        <Route exact path = "/contact" component = {Contact} />
       </Switch>
       </Fragment>

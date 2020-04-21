@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import "./styles/navbar.css"
 class Navbar extends Component {
+  // we link 
 	render() {
 		return (
 			<div className="Navbar">
