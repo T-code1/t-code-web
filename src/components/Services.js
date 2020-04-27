@@ -87,9 +87,9 @@ class Services extends Component {
             paragraph = {
                 color: '#fff'
             }
-
+         const {id} =this.props
         return (
-            <div style={services} className="services" >
+            <div style={services} className="services" id={id} >
                 <h2 style={title} className="servtitle">Services</h2>
                 <h3 style={subtitle} className="servsubtitle">What we do</h3>
                 <div className="cards">

@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import './styles/Astyle.css'
 class About extends Component {
     render() {
+        const {id} =this.props
         return (
-            <div className="container">
+            <div className="container" id={id}>
                 <div className="contain">
                     <div className="about">
                         <h2>About Us</h2>
