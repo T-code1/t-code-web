@@ -3,8 +3,16 @@
 }
 .Navbar {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   justify-content: space-between;
+  z-index: 200;
+  background-color: white;
+  cursor: pointer;
 }
+
 .menu-icon {
   color: black;
   float: right;

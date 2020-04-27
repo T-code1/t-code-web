@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import './styles/cstyle.css'
 class Contact extends Component {
     render() {
+        const {id} = this.props
         return (
-            <div className="container">
+            <div className="container" id={id}>
                 <div className="contact">
                     <h1>Let's Chat</h1>
 
